@@ -1,0 +1,43 @@
+.navbar-brand{
+    font-size: 35px;
+}
+.nav-item,.nav-link{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+p {
+    font-size: 20px;
+    color:black;
+
+}
+h1 {
+   font-size: 70px;
+   color: black;
+  font-weight: bold;
+}
+.jump_img {
+    height: 100%;
+      background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  }
+  
+  .navbar-default {
+      background: none;
+        border: none;
+  }
+.jump_2_img {
+    height: 100%;
+    background-color:#FF7F00;
+
+}
+.jump_3_img {
+    height: 100%;
+    background-color:white;
+
+}
+
+.jump_4_img {
+    height: 100%;
+    background-image:url(https://cdn.dribbble.com/users/877327/screenshots/9836711/media/fcfe4bb9d473d936c66d817044bb4cb8.jpg);
+
+}
