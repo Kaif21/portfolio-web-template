@@ -1,5 +1,8 @@
+html{
+    overflow-x: hidden;
+}
 .navbar-brand {
-    ]color: white;
+    color: white;
     text-decoration:transparent;
 }
 
@@ -43,4 +46,7 @@ h1 {
 }
 .btn{
     border-radius: 100px;
+}
+.div-3{
+    color: orange;
 }
