@@ -1,11 +1,8 @@
-.navbar-brand{
-    font-size: 35px;
+.navbar-brand {
+    ]color: white;
+    text-decoration:transparent;
 }
-.nav-item,.nav-link{
-    font-size: 25px;
-    font-weight: bold;
-    color: black;
-}
+
 p {
     font-size: 20px;
     color:black;
@@ -40,4 +37,10 @@ h1 {
     height: 100%;
     background-image:url(https://cdn.dribbble.com/users/877327/screenshots/9836711/media/fcfe4bb9d473d936c66d817044bb4cb8.jpg);
 
+}
+.down_img {
+    background-color:	#696969;
+}
+.btn{
+    border-radius: 100px;
 }
