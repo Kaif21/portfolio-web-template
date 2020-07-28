@@ -1,53 +1,61 @@
  /* test commit */
-html{
-    overflow-x: hidden;
-}
-.navbar-brand {
-    color: white;
-    text-decoration:transparent;
-}
 
-p {
-    font-size: 20px;
-    color:black;
+ html {
+     overflow-x: hidden;
+ }
 
-}
-h1 {
-   font-size: 70px;
-   color: black;
-  font-weight: bold;
-}
-.jump_img {
-    height: 100%;
-      background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
-  }
-  
-  .navbar-default {
-      background: none;
-        border: none;
-  }
-.jump_2_img {
-    height: 100%;
-    background-color:#FF7F00;
+ .navbar-brand {
+     color: white;
+     text-decoration: transparent;
+ }
 
-}
-.jump_3_img {
-    height: 100%;
-    background-color:white;
+ p {
+     font-size: 20px;
+     color: black;
+ }
 
-}
+ .jump_img {
+     height: 100%;
+     background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+ }
 
-.jump_4_img {
-    height: 100%;
-    background-image:url(https://cdn.dribbble.com/users/877327/screenshots/9836711/media/fcfe4bb9d473d936c66d817044bb4cb8.jpg);
+ .navbar-default {
+     background: none;
+     border: none;
+ }
 
-}
-.down_img {
-    background-color:	#696969;
-}
-.btn{
-    border-radius: 100px;
-}
-.div-3{
-    color: orange;
-}
+ .jump_2_img {
+     height: 100%;
+     background-color: #FF7F00;
+ }
+
+ .jump_3_img {
+     height: 100%;
+     background-color: white;
+ }
+
+ .jump_4_img {
+     height: 100%;
+     background-image: url(https://cdn.dribbble.com/users/877327/screenshots/9836711/media/fcfe4bb9d473d936c66d817044bb4cb8.jpg);
+ }
+
+ .down_img {
+     background-color: #696969;
+ }
+
+ .btn {
+     border-radius: 100px;
+ }
+
+ .feature {
+     padding-bottom: 40px;
+ }
+ .nav_text {
+     font-size: 80px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     padding-left:60px;
+     padding-right:60px;
+     color: #fff;
+     text-align: inherit;
+ }
