@@ -19,12 +19,12 @@
 @media (min-width: 992px) { 
    
    .paragraph {
-   padding-right: 500px;
+   padding-right: 510px;
 }
 }
 
 @media (min-width: 1200px) { 
    .paragraph {
-       padding-right: 500px;
+       padding-right: 510px;
    }
 }
