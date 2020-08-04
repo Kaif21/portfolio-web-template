@@ -1,0 +1,30 @@
+
+ .overlay-image .normal {
+    transition: .5s ease;
+}
+
+.overlay-image:hover .normal {
+    opacity: 0;
+}
+
+.overlay-image .hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.jump_img {
+   height: 100%;
+   background-image: url(https://image.freepik.com/free-vector/people-working-as-team-background-flat-style_23-2147768134.jpg);
+}
+
+/*media breakpoint*/
+@media (min-width: 992px) { 
+   
+   .paragraph {
+   padding-right: 500px;
+}
+}
+
+@media (min-width: 1200px) { 
+   .paragraph {
+       padding-right: 500px;
+   }
+}
