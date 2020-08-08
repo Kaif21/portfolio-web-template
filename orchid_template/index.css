@@ -1,5 +1,4 @@
-
- .overlay-image .normal {
+.overlay-image .normal {
     transition: .5s ease;
 }
 
@@ -10,21 +9,82 @@
 .overlay-image .hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .jump_img {
-   height: 100%;
-   background-image: url(https://image.freepik.com/free-vector/people-working-as-team-background-flat-style_23-2147768134.jpg);
+    height: 100%;
+    background-image: url(https://image.freepik.com/free-vector/people-working-as-team-background-flat-style_23-2147768134.jpg);
 }
+
+.border-card {
+    border: double 5px #333;
+    border-radius: 1px 2px 3px 4px;
+    padding: 10px;
+    
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  
+  /* Add padding BETWEEN each column */
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
 
 /*media breakpoint*/
-@media (min-width: 992px) { 
-   
-   .paragraph {
-   padding-right: 510px;
-}
+
+@media (min-width: 992px) {
+    .paragraph {
+        padding-right: 510px;
+    }
 }
 
-@media (min-width: 1200px) { 
-   .paragraph {
-       padding-right: 510px;
-   }
+@media (min-width: 1200px) {
+    .paragraph {
+        padding-right: 510px;
+    }
 }
