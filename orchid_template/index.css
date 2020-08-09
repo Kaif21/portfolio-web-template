@@ -66,14 +66,7 @@
     cursor: pointer;
   }
   
-  .btn:hover {
-    background-color: #ddd;
-  }
-  
-  .btn.active {
-    background-color: #666;
-    color: white;
-  }
+
 
 /*media breakpoint*/
 
