@@ -1,3 +1,6 @@
+body,html{
+  overflow-x:hidden;
+}
 .overlay-image .normal {
     transition: .5s ease;
 }
