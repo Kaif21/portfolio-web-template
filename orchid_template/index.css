@@ -68,7 +68,7 @@ body,html{
     background-color: white;
     cursor: pointer;
   }
-
+  
 /*media breakpoint*/
 
 @media (min-width: 992px) {
