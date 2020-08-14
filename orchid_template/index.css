@@ -135,7 +135,20 @@ body,html{
   .fa-plus-circle:hover{
     color: blue;
   }
+  .review-text {
+    color: black;
+    padding-bottom: 59px;
+    text-align: center;
+    padding-top: 120px;
+  }
 
+  .avatar-icon {
+    color: white;
+    position: absolute;
+    transform: translate(500px, 0px);
+    -ms-transform: translate(500px, 0px);
+    text-align: center;
+  }
 /*media breakpoint*/
 
 @media (min-width: 992px) {
