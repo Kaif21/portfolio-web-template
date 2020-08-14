@@ -68,7 +68,74 @@ body,html{
     background-color: white;
     cursor: pointer;
   }
+  .container-blog {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
   
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .7s ease;
+  }
+  
+  .icon {
+    color:white;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-163px, 50px);
+    -ms-transform: translate(-163px, 50px);
+    text-align: center;
+  }
+  
+  .icon-2{
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-112px, 48px);
+    -ms-transform: translate(-112px, 48px);
+    text-align: center;
+  }
+  
+  .icon-3{
+    color:#ddd;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(109px, 27px);
+    -ms-transform: translate(109px, 27px);
+    text-align: center;
+  }
+  
+    .fa-heart:hover {
+    color: red;
+    }
+  
+    .fa-comment:hover{
+  color:green;
+    }
+  
+  .fa-plus-circle:hover{
+    color: blue;
+  }
+
 /*media breakpoint*/
 
 @media (min-width: 992px) {
