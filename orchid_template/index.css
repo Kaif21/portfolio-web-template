@@ -1,170 +1,188 @@
-body,html{
-  overflow-x:hidden;
+body, html {
+  overflow-x: hidden;
 }
+
 .overlay-image .normal {
-    transition: .5s ease;
+  transition: .5s ease;
 }
 
 .overlay-image:hover .normal {
-    opacity: 0;
+  opacity: 0;
 }
 
 .overlay-image .hover {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .jump_img {
-    height: 100%;
-    background-image: url(https://image.freepik.com/free-vector/people-working-as-team-background-flat-style_23-2147768134.jpg);
+  height: 100%;
+  background-image: url(https://image.freepik.com/free-vector/people-working-as-team-background-flat-style_23-2147768134.jpg);
 }
 
 .border-card {
-    border: double 5px #333;
-    border-radius: 1px 2px 3px 4px;
-    padding: 10px;
-    
+  border: double 5px #333;
+  border-radius: 1px 2px 3px 4px;
+  padding: 10px;
 }
+
 .main {
-    max-width: 1000px;
-    margin: auto;
-  }
+  max-width: 1000px;
+  margin: auto;
+}
 
-  
-  /* Add padding BETWEEN each column */
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 33.33%;
-    display: none; /* Hide all elements by default */
-  }
-  
-  /* Clear floats after rows */ 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  
-  /* The "show" class is added to the filtered elements */
-  .show {
-    display: block;
-  }
-  
-  /* Style the buttons */
-  .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-  }
-  .container-blog {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    transition: .7s ease;
-  }
-  
-  .icon {
-    color:white;
-    font-size: 26px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-163px, 50px);
-    -ms-transform: translate(-163px, 50px);
-    text-align: center;
-  }
-  
-  .icon-2{
-    color: white;
-    font-size: 26px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-112px, 48px);
-    -ms-transform: translate(-112px, 48px);
-    text-align: center;
-  }
-  
-  .icon-3{
-    color:#ddd;
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(109px, 27px);
-    -ms-transform: translate(109px, 27px);
-    text-align: center;
-  }
-  
-    .fa-heart:hover {
-    color: red;
-    }
-  
-    .fa-comment:hover{
-  color:green;
-    }
-  
-  .fa-plus-circle:hover{
-    color: blue;
-  }
-  .review-text {
-    color: black;
-    padding-bottom: 59px;
-    text-align: center;
-    padding-top: 120px;
-  }
+/* Add padding BETWEEN each column */
 
-  .avatar-icon {
-    color: white;
-    position: absolute;
-    transform: translate(500px, 0px);
-    -ms-transform: translate(500px, 0px);
-    text-align: center;
-  }
-  .purchase{
-    margin-bottom: 4px;
-     padding-right: 35px;
-      padding-left: 35px;
-      color: #ddd;
-    }
+.row>.column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.container-blog {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .7s ease;
+}
+
+.icon {
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-163px, 50px);
+  -ms-transform: translate(-163px, 50px);
+  text-align: center;
+}
+
+.icon-2 {
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-112px, 48px);
+  -ms-transform: translate(-112px, 48px);
+  text-align: center;
+}
+
+.icon-3 {
+  color: #ddd;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(109px, 27px);
+  -ms-transform: translate(109px, 27px);
+  text-align: center;
+}
+
+.fa-heart:hover {
+  color: red;
+}
+
+.fa-comment:hover {
+  color: green;
+}
+
+.fa-plus-circle:hover {
+  color: blue;
+}
+
+.review-text {
+  color: black;
+  padding-bottom: 59px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.avatar-icon {
+  color: white;
+  position: absolute;
+padding-left: 508px;
+  text-align: center;
+}
+
+.purchase {
+  margin-bottom: 4px;
+  padding-right: 35px;
+  padding-left: 35px;
+  color: #ddd;
+}
+
+.map-btn {
+  margin-top: 14px;
+  padding: 4px;
+  border-radius: 100px;
+  outline: white;
+  cursor: pointer;
+}
+
 /*media breakpoint*/
 
 @media (min-width: 992px) {
-    .paragraph {
-        padding-right: 510px;
-    }
+  .paragraph {
+    padding-right: 510px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .paragraph {
-        padding-right: 510px;
-    }
+  .paragraph {
+    padding-right: 510px;
+  }
 }
