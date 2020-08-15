@@ -149,6 +149,12 @@ body,html{
     -ms-transform: translate(500px, 0px);
     text-align: center;
   }
+  .purchase{
+    margin-bottom: 4px;
+     padding-right: 35px;
+      padding-left: 35px;
+      color: #ddd;
+    }
 /*media breakpoint*/
 
 @media (min-width: 992px) {
