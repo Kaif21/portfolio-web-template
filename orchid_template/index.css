@@ -30,6 +30,28 @@ body, html {
   margin: auto;
 }
 
+.vertical {
+  border-left: 1px solid black;
+  height: 588px;
+  position: absolute;
+  left: 569px;
+  display: flex;
+}
+
+.horizontal {
+  border-left: 1px solid black;
+  width: 510px;
+  height: 1074px;
+  position: absolute;
+  left: 355px;
+  display: flex;
+  transform: rotate(90deg);
+}
+
+.no-gutters {
+  margin-top: 37px;
+}
+
 /* Add padding BETWEEN each column */
 
 .row>.column {
@@ -144,6 +166,10 @@ body, html {
   color: blue;
 }
 
+.fa-star {
+  color: blue;
+}
+
 .review-text {
   color: black;
   padding-bottom: 59px;
@@ -151,11 +177,11 @@ body, html {
   padding-top: 120px;
 }
 
+
 .avatar-icon {
   color: white;
   position: absolute;
-padding-left: 508px;
-  text-align: center;
+  margin-left: -42px;
 }
 
 .purchase {
