@@ -2,16 +2,12 @@ body, html {
   overflow-x: hidden;
 }
 
-.overlay-image .normal {
-  transition: .5s ease;
+.overlay-image {
+  background-color: #221b59;
 }
 
-.overlay-image:hover .normal {
-  opacity: 0;
-}
-
-.overlay-image .hover {
-  background-color: rgba(0, 0, 0, 0.5);
+.overlay-image {
+  opacity: .9;
 }
 
 .jump_img {
@@ -20,9 +16,12 @@ body, html {
 }
 
 .border-card {
-  border: double 5px #333;
-  border-radius: 1px 2px 3px 4px;
-  padding: 10px;
+
+  height: 140px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 4px solid #ececec;
+  box-shadow: 0 0 0 5px #fff;
 }
 
 .main {
@@ -176,7 +175,6 @@ body, html {
   text-align: center;
   padding-top: 120px;
 }
-
 
 .avatar-icon {
   color: white;
